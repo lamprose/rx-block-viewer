@@ -27,6 +27,7 @@
   * 学习通(超星)
   * MotionPro
   * 解压缩全能王
+  * NetKeeper
 
 ### 感谢
 - [rx-block-unviewer](https://github.com/Kr328/rx-block-unviewer)

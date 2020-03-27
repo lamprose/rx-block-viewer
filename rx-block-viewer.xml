@@ -421,4 +421,12 @@
             <type name="audio/*" />
         </intent-filter>
     </prescription>
+    <!-- NetKeeper -->
+    <prescription type="activity" package="com.minhui.networkcapture.pro" class="com.minhui.networkcapture.audio.mainactivity.MusicPlayActivity" sender="other">
+        <intent-filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.DEFAULT" />
+            <type name="audio/*" />
+        </intent-filter>
+    </prescription>
 </prescriptions>
