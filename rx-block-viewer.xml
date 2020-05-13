@@ -429,4 +429,12 @@
             <type name="audio/*" />
         </intent-filter>
     </prescription>
+    <!-- 天翼云盘 -->
+    <prescription type="activity" package="com.cn21.ecloud" class="com.cn21.ecloud.activity.login.UploadShareAgentActivity" sender="other">
+        <intent-filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.DEFAULT" />
+            <type name="*/*" />
+        </intent-filter>
+    </prescription>
 </prescriptions>
