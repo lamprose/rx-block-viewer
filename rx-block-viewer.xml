@@ -437,4 +437,24 @@
             <type name="*/*" />
         </intent-filter>
     </prescription>
+    <!-- 设置工具箱 -->
+    <prescription type="activity" package="com.byyoung.setting" class="com.byyoung.setting.Applications.activitys.SdAPP_Describe" sender="any">
+        <intent-filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.DEFAULT" />
+            <scheme name="file" />
+            <scheme name="content" />
+            <type name="application/*" />
+        </intent-filter>
+    </prescription>
+    <prescription type="service" package="com.byyoung.setting" class="com.byyoung.setting.Additional.FakeSms.HeadlessSmsSendServiceb" sender="any">
+        <intent-filter>
+            <action name="android.intent.action.RESPOND_VIA_MESSAGE" />
+            <cat name="android.intent.category.DEFAULT" />
+            <scheme name="sms" />
+            <scheme name="smsto" />
+            <scheme name="mms" />
+            <scheme name="mmsto" />
+        </intent-filter>
+    </prescription>
 </prescriptions>

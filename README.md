@@ -29,6 +29,7 @@
   * 解压缩全能王
   * NetKeeper
   * 天翼云盘
+  * 设置工具箱
 
 ### 感谢
 - [rx-block-unviewer](https://github.com/Kr328/rx-block-unviewer)
