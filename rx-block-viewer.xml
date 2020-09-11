@@ -457,4 +457,14 @@
             <scheme name="mmsto" />
         </intent-filter>
     </prescription>
+    <!-- 小米文件管理 -->
+    <prescription type="activity" package="com.android.fileexplorer" sender="other">
+        <intent-filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.DEFAULT" />
+            <scheme name="file" />
+            <scheme name="content" />
+            <type name="*/*" />
+        </intent-filter>
+    </prescription> 
 </prescriptions>
